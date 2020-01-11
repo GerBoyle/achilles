@@ -53,7 +53,7 @@ if(validators.url(url)):
 else:
     print('Invalid URL. Please include full URL including scheme.')
 
-# 
+#
 # if(report==''):
 #     print("Nice Job! Your HTML document is secure!")
 # else:
@@ -71,6 +71,7 @@ else:
   report = header + report
 
 print(report)
+
 
 if(args.output):
   f = open(args.output, 'w')
